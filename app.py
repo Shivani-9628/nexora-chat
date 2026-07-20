@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 
 st.title("🤖 Nexora AI v2")
 st.write("Welcome to Nexora AI!")
@@ -13,4 +13,4 @@ if st.button("Submit"):
     elif user_input.strip() == "":
         st.warning("Please enter a question.")
     else:
-        st.success("Thanks for your question! Nexora AI is under development.")
+      st.info("fYou asked: {user_input}")
