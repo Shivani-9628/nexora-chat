@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🤖 Nexora AI")
+st.title("🤖 Nexora AI v2")
 st.write("Welcome to Nexora AI!")
 
 user_input = st.text_input("Ask me anything:")
